@@ -41,3 +41,5 @@
     - `--restart always` specifies the restart strategy in case things go wrong
     - `--name nodejs_server` the name of the container (which you can later see via `docker ps`)
     - `node-docker` is the name of the image
+
+4. access your service via `curl <server_ip or localhost>:8000`!
