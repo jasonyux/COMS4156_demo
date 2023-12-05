@@ -40,6 +40,6 @@
     - `--publish 8000:8000` defines port mapping `host_port:container_port`
     - `--restart always` specifies the restart strategy in case things go wrong
     - `--name nodejs_server` the name of the container (which you can later see via `docker ps`)
-    - `node-docker` is the name of the image
+    - `node-docker` is the name of the image you built in step 2
 
 4. access your service via `curl <server_ip or localhost>:8000`!
